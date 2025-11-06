@@ -42,3 +42,18 @@ else:
             print()
             if len(unique_tracks) < 2:
                 print("Not enough variety in tracks.")
+
+            print()
+            seen_names = set()
+            found_duplicate = False
+
+            for participant in participants:
+                name = participant["name"]
+                if name in seen_names:
+                    print("Duplicate participant name: ", name)
+                    found_duplicate = True
+                    break
+                seen_names.add(name)
+
+            if found_duplicate == False:
+                print("No duplicate names.")
