@@ -24,3 +24,21 @@ else:
         for i in range(len(participants)):
             print(str(i + 1) + ".", participants[i]["name"], "-", participants[i]["track"])
 
+        print()
+        unique_tracks = set()
+        for participant in participants:
+            unique_tracks.add(participant["track"])
+
+        print("Tracks offered in this event:")
+        track_list = list(unique_tracks)
+        tracks_output = ""
+        for i in range(len(track_list)):
+            if i == 0:
+                tracks_output = track_list[i]
+            else:
+                tracks_output = tracks_output + ", " + track_list[i]
+            print(tracks_output)
+
+            print()
+            if len(unique_tracks) < 2:
+                print("Not enough variety in tracks.")
