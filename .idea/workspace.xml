@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bb3cccb4-e335-4a9d-af47-1c68687a1acc" name="Changes" comment="">
+    <list default="true" id="bb3cccb4-e335-4a9d-af47-1c68687a1acc" name="Changes" comment="implemented participant registration">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/techfest_registration.py" beforeDir="false" afterPath="$PROJECT_DIR$/techfest_registration.py" afterDir="false" />
     </list>
@@ -55,6 +55,15 @@
       <option name="presentableId" value="Default" />
       <updated>1762399277100</updated>
     </task>
+    <task id="LOCAL-00001" summary="implemented participant registration">
+      <option name="closed" value="true" />
+      <created>1762400876829</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1762400876829</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -67,5 +76,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="implemented participant registration" />
+    <option name="LAST_COMMIT_MESSAGE" value="implemented participant registration" />
   </component>
 </project>
